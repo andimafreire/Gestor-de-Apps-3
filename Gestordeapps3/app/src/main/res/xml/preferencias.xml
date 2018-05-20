@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/titulo_preferencia_apariencia">
+        <ListPreference
+            android:defaultValue="claro"
+            android:key="PREFERENCIA_DE_TEMA"
+            android:title="@string/preferencia_apariencia"
+            android:entries="@array/nombresTemas"
+            android:entryValues="@array/Temas" />
+    </PreferenceCategory>
+</PreferenceScreen>

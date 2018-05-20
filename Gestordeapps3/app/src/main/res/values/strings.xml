@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name" translatable="false">Gestor de Apps</string>
+    <!-- Strings relacionados con el login -->
+    <string name="login_titulo">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (opcional)</string>
+    <string name="action_sign_in">Entra o regístrate</string>
+    <string name="action_sign_in_short">Entra</string>
+    <string name="error_invalid_email">El e-mail debe contener @ y menos de 40 caracteres</string>
+    <string name="error_invalid_password">La contraseña debe contener de 4 a 30 caracteres</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="cuenta_creada">La cuenta ha sido creada correctamente!</string>
+    <string name="menu_cerrar_sesion">Cerrar sesión</string>
+    <string name="nombre_canal1">Registro</string>
+    <string name="texto_notif_registro">Tu cuenta a sido añadida con éxito</string>
+    <string name="titulo_notif_registro">Felicidades!</string>
+    <string name="mensaje_dialog_cerrar_sesion">Si cierra sesión la app se cerrará, ¿continuar?</string>
+    <string name="mensaje_dialog_eliminar_cuenta">Si elimina su cuenta perderá sus apps no instaladas, ¿continuar?</string>
+    <string name="menu_eliminar_cuenta">Eliminar Cuenta</string>
+    <!-- Strings relacionados con los ajustes -->
+    <string name="ajustes">Ajustes</string>
+    <string name="titulo_preferencia_apariencia">Apariencia</string>
+    <string name="preferencia_apariencia">Tema</string>
+    <string name="tema1">Claro</string>
+    <string name="tema2">Oscuro</string>
+    <!-- Strings relacionados con Acerca de -->
+    <string name="acerca_de">Acerca de</string>
+    <string name="texto_acercade">Aplicación creada por Andima Freire</string>
+    <!-- Strings relacionados con el filtro de apps-->
+    <string name="filtro">Filtro</string>
+    <string name="apps_instaladas">Instaladas</string>
+    <!-- Strings relacionados con la lista de apps-->
+    <string name="titulo_lista_apps">Apps de</string>
+    <string name="app_instalada">Instalada</string>
+    <string name="texto_lista_apps_vacia">No se ha encontrado ninguna app sin instalar</string>
+    <!-- Strings relacionados con la info de app-->
+    <string name="borrar">Borrar</string>
+    <string name="ejecutar">Ejecutar</string>
+    <string name="desinstalar">Desinstalar</string>
+    <string name="buscar_en_play">Buscar en PlayStore</string>
+
+
+    <string name="capturas_de_pantalla">Capturas de pantalla</string>
+    <string name="todas_activity_label">Todas las Apps</string>
+    <string name="nombre_canal2">Avisos de Apps</string>
+    <string name="compartir_apk">Compartir apk</string>
+    <string name="error_io">Error IO</string>
+    <string name="error_conexion">Error de conexión</string>
+    <string name="error_json">Error en el JSON de respuesta</string>
+    <string name="error_metodo">Error en el método de envío</string>
+    <string name="error_codificacion">Error codificación de parámetros</string>
+    <string name="error_conexion_interrumpida">conexíón interrumpida</string>
+    <string name="error_ejecucion">Error de ejecución</string>
+    <string name="error_malformedurl">Error MalformedURL</string>
+    <string name="guardar_apk">Guardar apk</string>
+    <string name="todas_las_apps">Todas las Apps</string>
+    <string name="permiso_necesario">El permiso de almacenamiento es necesario para guardar el apk</string>
+    <string name="app_no_econtrada">Aplicación no encontrada</string>
+    <string name="memoria_accesible">La memoria externa no se encuentra accesible</string>
+    <string name="apk_guardado">El apk ha sido guardado en la carpeta descargas del dispositivo</string>
+    <string name="compartir">Compartir</string>
+    <string name="buscar">Buscar</string>
+    <string name="compartir_sin_nombre">Si desea que el apk disponga de un nombre no genérico guárdelo primero, ¿Compartir de todos modos?</string>
+
+</resources>

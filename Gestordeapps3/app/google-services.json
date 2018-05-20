@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586405486858",
+    "firebase_url": "https://gestordeapps2.firebaseio.com",
+    "project_id": "gestordeapps2",
+    "storage_bucket": "gestordeapps2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586405486858:android:4017ef56f1d7e295",
+        "android_client_info": {
+          "package_name": "com.andima.gestordeapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586405486858-onbvt4bnpog85niii649je2113aatj4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andima.gestordeapps",
+            "certificate_hash": "13ea1d200803f69d75a497815340703fbf607f3b"
+          }
+        },
+        {
+          "client_id": "586405486858-btm9ibsbhnjcj2bes2budghsp6i5rqi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6LOOObkYqRACaWZxZ6f-Nhustk80Q_-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586405486858-btm9ibsbhnjcj2bes2budghsp6i5rqi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

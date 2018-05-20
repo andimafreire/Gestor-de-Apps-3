@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array translatable="false" name="Temas">
+        <item>claro</item>
+        <item>oscuro</item>
+    </string-array>
+    <string-array name="nombresTemas">
+        <item>@string/tema1</item>
+        <item>@string/tema2</item>
+    </string-array>
+</resources>

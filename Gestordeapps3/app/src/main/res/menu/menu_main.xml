@@ -1,0 +1,61 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/buscar"
+        android:visible="false"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/filtrar"
+        android:layout_width="match_parent"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/filtro"
+        android:visible="false"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/filtroInstaladas"
+                android:checkable="true"
+                android:title="@string/apps_instaladas"
+                android:visible="false" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/compartir_apk"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/compartir"
+        android:visible="false"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/guardar_apk"
+        android:icon="@android:drawable/stat_sys_download"
+        android:title="@string/guardar_apk"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/appsUsuario"
+        android:title="@string/titulo_lista_apps"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@+id/appsTodas"
+        android:title="@string/todas_las_apps"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@+id/eliminarCuenta"
+        android:title="@string/menu_eliminar_cuenta"/>
+    <item
+        android:id="@+id/cerrarSesion"
+        android:title="@string/menu_cerrar_sesion"/>
+    <item
+        android:id="@+id/ajustes"
+        android:title="@string/ajustes" />
+    <item
+        android:id="@+id/acercaDe"
+        android:title="@string/acerca_de" />
+</menu>
